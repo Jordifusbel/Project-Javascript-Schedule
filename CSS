@@ -1,0 +1,60 @@
+div.Body {
+	text-align: left;
+	background-color: tomato;	
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	font-family: Courier New;	
+	margin-top: -8px;
+	margin-left: -8px;	
+    	}
+	
+	h2.day {
+    	text-align: center;
+	color: #ffffff;
+	}
+	h2.BBDD {
+    	text-align: center;
+	color: black;
+	}
+	h2.LLMM {
+    	text-align: center;
+	color: black;
+	}
+	h2.SI {
+    	text-align: center;
+	color: black;
+	}
+	h2.ED {
+    	text-align: center;
+	color: black;
+	}
+	h2.Prog {
+    	text-align: center;
+	color: black;
+	}
+	h2.FOL {
+    	text-align: center;
+	color: black;
+	}
+	h2.LLMMEx {
+    	text-align: center;
+	color: black;
+	}
+	h2.ProgEx {
+    	text-align: center;
+	color: black;
+	}
+	h2.empty {
+    text-align: center;
+	color: black;
+	}
+	div {
+    	width: 80px;
+    	height: 20px;
+ 	border: 2px solid black;
+ 	margin: 10px;
+ 	padding: 30px;
+ 	text-align: center;
+	background-color: lightgray;
+	}
