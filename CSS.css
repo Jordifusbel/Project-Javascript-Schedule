@@ -7,43 +7,56 @@
 	font-family: Courier New;		
     	}
 	
-	h2.day {
-    	text-align: center;
-	color: #ffffff;
+	table{
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-left: 5%;
 	}
-	h2.BBDD {
-    	text-align: center;
-	color: black;
+
+	table td{
+	border: 2px solid black;
+	font-style: italic;
+	font-size: 150%;
 	}
-	h2.LLMM {
+
+	.day {
     	text-align: center;
-	color: black;
+	color: white;
 	}
-	h2.SI {
-    	text-align: center;
-	color: black;
-	}
-	h2.ED {
-    	text-align: center;
-	color: black;
-	}
-	h2.Prog {
+	.BBDD {
     	text-align: center;
 	color: black;
 	}
-	h2.FOL {
+	.LLMM {
     	text-align: center;
 	color: black;
 	}
-	h2.LLMMEx {
+	.SI {
     	text-align: center;
 	color: black;
 	}
-	h2.ProgEx {
+	.ED {
     	text-align: center;
 	color: black;
 	}
-	h2.empty {
+	.Prog {
+    	text-align: center;
+	color: black;
+	}
+	.FOL {
+    	text-align: center;
+	color: black;
+	}
+	.LLMMEx {
+    	text-align: center;
+	color: black;
+	}
+	.ProgEx {
+    	text-align: center;
+	color: black;
+	}
+	.empty {
     text-align: center;
 	color: black;
 	}
