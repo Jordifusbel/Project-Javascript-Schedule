@@ -1,12 +1,10 @@
-div.Body {
+	Body {
 	text-align: left;
 	background-color: tomato;	
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	font-family: Courier New;	
-	margin-top: -8px;
-	margin-left: -8px;	
+	font-family: Courier New;		
     	}
 	
 	h2.day {
@@ -58,3 +56,14 @@ div.Body {
  	text-align: center;
 	background-color: lightgray;
 	}
+	.desc{
+    background: -moz-linear-gradient(rgba(252, 250, 250, 0.7), rgba(128, 165, 93, 0.9));
+	background: -webkit-linear-gradient(rgba(252, 250, 250, 0.7), rgba(128, 165, 93, 0.9));
+	background: -o-linear-gradient(rgba(252, 250, 250, 0.7), rgba(128, 165, 93, 0.9));
+    text-align: left;
+    border-radius: 35px;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    display: none;
+}
