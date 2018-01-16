@@ -80,6 +80,8 @@ color: black;
 .desc{
 text-align: left;
 margin-top: 20px;
-align-items: center;
+margin-right: 55%;
+background-color: black;
+color: lightgreen;
 display: none;
 }
