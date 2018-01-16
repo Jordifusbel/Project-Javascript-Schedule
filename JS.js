@@ -1,17 +1,16 @@
-function whiteStyle(x) {
- 	var element = document.getElementsByClassName(x);
-	for (var i = 0; i < element.length; i++){
-	element[i].style.color = "lightgreen";
-	/* element[i].style.background-color = "black"; */
-		}
-	}
 
-	function reverse(x) {
- 	var element = document.getElementsByClassName(x);
-	for (var i = 0; i < element.length; i++){
-	element[i].style.color = "black";
-	/* element[i].style.color = "tomato"; */
-		}
-	}
+function whiteStyle(x) {
+x.style.color= "lightgreen"
+x.style.backgroundColor= "black"
+}
+	
+
+function reverse(x) {
+x.style.color= "black"
+x.style.backgroundColor= "tomato"
+}
     
 	
+function showInfo(x) {
+document.getElementById(x.attributes["class"].value).style.display = "block";
+}
